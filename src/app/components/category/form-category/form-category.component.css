@@ -1,0 +1,24 @@
+.modal-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+:host ::ng-deep .btn{
+  --bs-btn-padding-x:2.65rem;
+  --bs-btn-border-radius:1.375rem;
+}
+
+.modal-footer{
+  justify-content: space-evenly;
+}
+
+/* .modal{
+  --bs-modal-margin: 10.5rem;
+  --bs-modal-footer-border-color: #0713e5;
+} */
